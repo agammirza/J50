@@ -1,0 +1,264 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/*html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}*/
+
+
+body {
+  font-family: "Avenir Next";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*Bagian Header*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #00c853;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  opacity: 0.8;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 15px;
+ }
+
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #000000;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color:#FFCA02;
+}
+
+/*Bagian Main 1*/
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(img/slide1.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+   font-size: 20px;
+   margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color:  #000000;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+   background-color: #FFD700;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+/*Bagian Main 2 tambahan*/
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+hr{
+  border: 3px solid #00c853;
+  border-radius: 5px;
+  width: 20%
+  opacity:0.7;
+}
+
+/*mulai dari sini */
+
+.lesson {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .lesson {
+    width: 100%;
+    display: block;
+  }
+}
+
+.lesson-icon {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.lesson-icon p {
+  position: relative;
+  top: 44%;
+  width: 100%;
+  color: grey;
+}
+
+.team {
+  padding: 0 16px;
+}
+
+.nama {
+  font-size: 18px;
+  color: #000;
+}
+
+.team::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contact-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #00c853;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-button:hover {
+  background-color: #F4D03F ;
+}
+
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #4d4d4d;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.profile {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+/*Bagian Footer*/
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #00c853;
+  opacity: 0.7;
+  text-align: center;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #F8F8FF;
+  font-size: 12px;
+}
+
+
+
+/* Ketik code Anda dibawah */
+/*.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;*/
+}
