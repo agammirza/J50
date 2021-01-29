@@ -1,5 +1,4 @@
 # J50
-Your site is published at https://agammirza.github.io/J50/
 Prograte Proyek Tim CEB 2020 
 Nama Tim J50
 1. Agam Mirza Bagian Animasi & Desain Responsif
@@ -7,3 +6,5 @@ Nama Tim J50
 3. Novita Setiawati Bagian Main
 4. Firman Ambarak Bagian Main Tambahan
 5. Nur Ainun Oktafiani Bagian Footer
+
+Your site is published at https://agammirza.github.io/J50/
