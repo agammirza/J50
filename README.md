@@ -1,4 +1,5 @@
 # J50
+Your site is published at https://agammirza.github.io/J50/
 Prograte Proyek Tim CEB 2020 
 Nama Tim J50
 1. Agam Mirza Bagian Animasi & Desain Responsif
